@@ -13,8 +13,8 @@ def summarize():
 
     article.download()
     article.parse()
-
     article.nlp()
+    
     
     title.config(state='normal')
     author.config(state='normal')
